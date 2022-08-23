@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.fc2745e1.css",
+    "main.js": "/my-app/static/js/main.60361be0.js",
+    "static/media/remixicon.svg?t=1590207869815": "/my-app/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/product2.jpg": "/my-app/static/media/product2.4611f88aa0e2592629ec.jpg",
+    "static/media/product1.jpg": "/my-app/static/media/product1.e24580532d3957e16a63.jpg",
+    "static/media/product3.jpg": "/my-app/static/media/product3.3d7c6900e6ab6fe446b7.jpg",
+    "static/media/product4.jpg": "/my-app/static/media/product4.972498e78e865910a7c9.jpg",
+    "static/media/remixicon.eot?t=1590207869815": "/my-app/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/my-app/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/image2.png": "/my-app/static/media/image2.b0c0df1d829db1815b4e.png",
+    "static/media/remixicon.woff?t=1590207869815": "/my-app/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/my-app/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/image4.png": "/my-app/static/media/image4.d3568f52f93f57d7b71f.png",
+    "static/media/image1.png": "/my-app/static/media/image1.a7a6ca50da589e143e32.png",
+    "static/media/hoodies.png": "/my-app/static/media/hoodies.2ea004c223cf578a7196.png",
+    "static/media/tshirt.png": "/my-app/static/media/tshirt.4317fb798bc9c90f0ae9.png",
+    "static/media/activewear.png": "/my-app/static/media/activewear.c80e135e2c7f07918182.png",
+    "static/media/image3.png": "/my-app/static/media/image3.e961c21a1dc7976b1d91.png",
+    "static/media/sweatshirt.png": "/my-app/static/media/sweatshirt.171cb2535b2e38da6701.png",
+    "index.html": "/my-app/index.html",
+    "main.fc2745e1.css.map": "/my-app/static/css/main.fc2745e1.css.map",
+    "main.60361be0.js.map": "/my-app/static/js/main.60361be0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc2745e1.css",
+    "static/js/main.60361be0.js"
+  ]
+}
