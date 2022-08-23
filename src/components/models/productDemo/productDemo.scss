@@ -1,0 +1,349 @@
+.productDemo {
+  width: 100%;
+  height: 100%;
+  // background: red;
+
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 12px;
+  font-size: 36px;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.product-details{
+  width: 100%;
+  height: 100%;
+  padding: 24px 96px;
+  display: flex;
+  gap:72px;
+
+
+  .product-left{
+    flex-basis: 100%;
+    height: 100%;
+
+    .product-image{
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+    }
+
+  }
+
+  .product-right{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+}
+
+.primary-details{
+
+   display: flex;
+   flex-direction: column;
+   gap:4px;
+
+
+  .brand-name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #1F1F1F;
+
+  }
+
+  .type{
+    font-weight: 500;
+    font-size: 20px;
+    color: #3D3D3D;
+
+  }
+
+  .ratting{
+
+     display: flex;
+     align-items: center;
+     gap:4px;
+
+     img{
+      width: 25px;
+     }
+
+    h3{
+      font-weight: 600;
+      font-size: 20px;
+      color: #1F1F1F;
+    }
+    p{
+      font-weight: 500;
+      font-size: 16px;
+      color: #5C5C5C;
+    }
+   
+  }
+}
+
+
+.color-available{
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+
+
+  h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F1F1F;
+  }
+
+  .colors{
+
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+
+
+
+      .color{
+
+        width: 36px;
+        height: 36px;
+        background: #4F9E1A;
+        border: 3px solid #EBEBEB;
+        border-radius: 50%;
+
+        
+
+
+    
+    
+      }
+    
+      .white{
+        background: #fff;
+      }
+    
+      .black{
+        background: #000;
+      }
+    
+      .blue{
+        background: #252F44;
+      }
+    
+      .red{
+        background: #D32222;
+      }
+    
+      .orange{
+        background: #EB7A0A;
+      }
+    
+      .aqua{
+        background: #22AFD3;
+      }
+    
+      .green{
+        background: #4F9E1A;
+      }
+    
+      .yellow{
+        background: #F0F005;
+      }
+    
+
+
+    }
+
+
+
+    
+    input[type="radio"]{
+      display: none;
+    }
+
+    input[type="radio"]:checked + label{
+      
+      position: relative;
+      
+    }
+
+    
+    input[type="radio"]:checked + label::after{
+      
+      content: '';
+      display: block;
+      position: absolute;
+      top: 20%;
+      left: 35%;
+      width: 6px;
+      height: 14px;
+      border: 2px solid #fff;
+      border-width: 0 4px 4px 0;
+      transform: rotate(45deg);
+    }
+
+    
+    #white:checked + label::after , #yellow:checked + label::after  {
+      
+      content: '';
+      display: block;
+      position: absolute;
+      top: 20%;
+      left: 35%;
+      width: 6px;
+      height: 14px;
+      border: 2px solid #000;
+      border-width: 0 4px 4px 0;
+      transform: rotate(45deg);
+    }
+
+
+
+ 
+
+
+}
+
+
+
+
+
+
+.size-available{
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+ 
+
+  h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F1F1F;
+  }
+
+  .sizes{
+
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+
+    .size{
+        width: 48px;
+        height: 48px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #5C5C5C;
+
+        background: #F5F5F5;
+        border: 2px solid #EBEBEB;
+        border-radius: 8px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
+
+
+  
+  input[type="radio"]{
+    display: none;
+  }
+
+  input[type="radio"]:checked + label>.size{
+      
+    background: #646363;
+    color: #fff;
+    
+  }
+
+
+}
+
+
+.other-details{
+
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+      
+
+      h3{
+        font-weight: 600;
+        font-size: 20px;
+        color: #1F1F1F;
+
+      }
+
+      .details{
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 8px;
+        grid-column-gap: 72px;
+
+
+        .fabric ,.fit ,  .neckline, .sleeve-length {
+
+        
+
+          p{
+            font-weight: 400;
+            font-size: 16px;  
+            color: #5C5C5C;
+            
+
+          }
+
+          h3{
+
+            font-weight: 500;
+            font-size: 20px;
+            color: #1F1F1F;
+
+            border-bottom:  1px solid rgba(0, 0, 0, 0.08);
+
+          
+          }
+
+        }
+
+
+      }
+
+
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .other-details{
+    display: none;
+
+
+  }
+
+  .product-details{
+      flex-direction: column;
+      
+  }
+
+}

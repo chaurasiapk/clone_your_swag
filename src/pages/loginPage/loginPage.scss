@@ -1,0 +1,163 @@
+.page-body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 80px 382px;
+}
+
+.close-button {
+  padding: 8px;
+  position: absolute;
+  top: 38px;
+  right: 62px;
+  color: #000;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+.page-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  justify-content: center;
+
+  h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1f1f1f;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.login-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    .input-label {
+      font-weight: 500;
+      font-size: 14px;
+      color: #5c5c5c;
+    }
+    .input-field {
+      font-weight: 500;
+      font-size: 16px;
+      color: #7a7a7a;
+      padding: 16px;
+    }
+  }
+
+  P {
+    font-weight: 400;
+    top: 80px;
+    font-size: 14px;
+    color: #e11414;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  button {
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background: #2222d3;
+    border-radius: 4px;
+  }
+}
+
+.devider {
+  background: #c4c4c4;
+  height: 1px;
+  width: 100%;
+  position: relative;
+
+  // .left-line{
+  //         background: #C4C4C4;
+  //         height: 1px;
+  //         width: 100%;
+
+  // }
+
+  .or {
+    background: #fff;
+    position: absolute;
+    padding: 10px;
+    // top:-50%;
+
+    left: 50%;
+    top: -20px;
+  }
+
+  // .right-line{
+
+  //     background: #C4C4C4;
+  //     height: 1px;
+  //     width: 100%;
+
+  // }
+}
+
+.social-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .g-btn {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1f1f1f;
+    border: 3px solid rgb(218, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    cursor: not-allowed;
+  }
+
+  .f-btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 16px;
+    background: #1877f2;
+    border: 0px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: not-allowed;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .page-body {
+    padding: 16px 36px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .page-content {
+    justify-content: flex-start;
+  }
+}
